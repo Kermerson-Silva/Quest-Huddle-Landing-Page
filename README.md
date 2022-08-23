@@ -6,7 +6,7 @@ Repositório criado para postar a minha resposta ao desafio de HTML e CSS Avanç
 ### HTML
 ### CSS
 
-## Desafios em completar a quest
+## Desafios em completar a Quest
 
 Meu maior desafio foi em relação a parte responsiva do site, pois a estrutura do meu código foi montada com grid para fazer o layout da pagina, mas mesmo assim, após pedir conselhos na comunidade de programadores do Dev Quest, consegui concluir com êxito a parte responsiva da página
 
@@ -19,7 +19,6 @@ Aqui no GitHub em meu repositório, você deverar clicar no "code" verde e copia
 Após isso, em alguma pasta de seu desejo, clique com o botão direito de seu mouse e peça para entrar naquela pasta com o Git Bash ou qualquer outro programa que você utilize para acessar o prompt de comando.
 Agora, insira o código:
 
-'''
-git clone (cole a url)
-'''
+git clone
+
 E pronto, os arquivos serão clonados em sua máquina possibilitando que você utilize qualquer código que quiser.
