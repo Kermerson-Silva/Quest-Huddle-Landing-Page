@@ -1,0 +1,100 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  grid-template-areas: "logo"
+                       "main"
+                       "footer";
+  background: url(../images/bg-desktop.svg) no-repeat center;
+  background-size: cover;
+  background-color: hsl(257, 40%, 49%);
+  padding: 6rem 8rem;
+}
+
+.logo {
+  grid-area: logo;
+  margin-bottom: 8rem;
+}
+
+.logo a img{
+  width: 25rem;
+}
+
+.container {
+  grid-area: main;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.container img {
+  width: 100%;
+}
+
+.container .info {
+  padding: 6rem;
+}
+
+.container .info .title {
+  font-size: 6rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 3rem;
+}
+
+.container .info .description {
+  font-size: 2.5rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  margin-bottom: 7rem;
+}
+
+.container .info .btn-register {
+  padding: 1.5rem 7rem;
+  background-color: #ffffff;
+  font-size: 2rem;
+  border: 0;
+  border-radius: 3rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  transition: 0.3s;
+}
+
+.container .info .btn-register:hover {
+  background-color: hsl(300, 69%, 71%);
+  color: #ffffff;
+}
+
+.footer{
+  grid-area: footer;
+}
+
+.footer .social-networks{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 7rem;
+}
+
+.footer .social-networks a i {
+  display: flex;
+  color: #ffffff;
+  justify-content: center;
+  align-items: center;
+  width: 4rem;
+  height: 4rem;
+  border: solid .1rem #ffffff;
+  border-radius: 100%;
+  padding: 0 2rem;
+  margin-left: 2rem;
+  font-size: 2rem;
+  transition: 0.3s;
+}
+
+.footer .social-networks a i:hover {
+  border-color: hsl(300, 69%, 71%);
+  color: hsl(300, 69%, 71%);
+}
